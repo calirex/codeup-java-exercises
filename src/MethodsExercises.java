@@ -1,19 +1,19 @@
-public class MethodsExercises {
-    public static void main(String[] args) {
+//public class MethodsExercises {
+//    public static void main(String[] args) {
 
 //  1. Create a class named MethodsExercises. Inside of your class, write code to create the specified methods. Test your code by creating a main method and calling each of the methods you've created.
 
-        public static int getInteger(int min, int max) {
-                Scanner sc = new Scanner(System.in);
-                int userInput;
-                while (true) {
-                    System.out.print("Enter a number between " + min + " and " + max + ": ");
-                    if (sc.hasNextInt()) {
-                        userInput = sc.nextInt();
-                        if (userInput >= min && userInput <= max) {
-                            break;
+//        public static int getInteger(int min, int max) {
+//                Scanner sc = new Scanner(System.in);
+//                int userInput;
+//                while (true) {
+//                    System.out.print("Enter a number between " + min + " and " + max + ": ");
+//                    if (sc.hasNextInt()) {
+//                        userInput = sc.nextInt();
+//                        if (userInput >= min && userInput <= max) {
+//                            break;
 
-                            
+
 //            int a = 10;
 //            int b = 5;
 //            System.out.println("Addition: " + add(a, b));
@@ -70,6 +70,6 @@ public class MethodsExercises {
 //// TODO: overload the math exercises from the curriculum exercise to work with both integers and doubles
 //
 
-                        }
-                    }
-                }
+//                        }
+//                    }
+//                }

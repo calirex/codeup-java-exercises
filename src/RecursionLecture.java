@@ -172,21 +172,21 @@ public class RecursionLecture {
 
 
 
-**
-        * The following code defines an algorithm that will flip the index positions of two characters within a string if both are numbers.
-        */
-public class FlipNumsRecursionExample {
-
-    public static boolean charsAreDigits(char first, char second) {
-        return Character.isDigit(first) && Character.isDigit(second);
-    }
-
-
-    /**
-     * Recursive Solution
-     * @param str
-     * @return
-     */
+//**
+//        * The following code defines an algorithm that will flip the index positions of two characters within a string if both are numbers.
+//        */
+//public class FlipNumsRecursionExample {
+//
+//    public static boolean charsAreDigits(char first, char second) {
+//        return Character.isDigit(first) && Character.isDigit(second);
+//    }
+//
+//
+//    /**
+//     * Recursive Solution
+//     * @param str
+//     * @return
+//     */
 //    public static String flipNums(String str) {
 //        if (str.length() == 1 || str.isEmpty()) return str;
 //        char first = str.charAt(0);
@@ -234,28 +234,28 @@ public class FlipNumsRecursionExample {
 
 
     // Test Cases
-    public static void main(String[] args) {
-
-        //  input: "a1b2c3d"
-        // output: "a3b2c1d"
-        System.out.println(flipNums("a1b2c3d"));
-
-
-        //  input: "12345"
-        // output: "54321"
-        System.out.println(flipNums("12345"));
-
-        //  input: "123a45"
-        // output: "543a21"
-        System.out.println(flipNums("123a45"));
-
-        //  input: "ab12cd"
-        // output: "ab21cd"
-        System.out.println(flipNums("ab12cd"));
-
-    }
-
-}
+//    public static void main(String[] args) {
+//
+//        //  input: "a1b2c3d"
+//        // output: "a3b2c1d"
+//        System.out.println(flipNums("a1b2c3d"));
+//
+//
+//        //  input: "12345"
+//        // output: "54321"
+//        System.out.println(flipNums("12345"));
+//
+//        //  input: "123a45"
+//        // output: "543a21"
+//        System.out.println(flipNums("123a45"));
+//
+//        //  input: "ab12cd"
+//        // output: "ab21cd"
+//        System.out.println(flipNums("ab12cd"));
+//
+//    }
+//
+//}
 
 
 
