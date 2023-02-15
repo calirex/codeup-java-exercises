@@ -34,6 +34,31 @@ public class Dish {
                 ==========
                 """, dish.costInCents, dish.nameOfDish, dish.wouldRecommend);
     }
+// CONSTRUCTORS //
+    public Dish(int cents, String name, Boolean recommended) {
+        this.costInCents = cents;
+        this.nameOfDish = name;
+        this.wouldRecommend = recommended;
+    }
+
+    public Dish(int cents, String name) {
+        this.costInCents = cents;
+        this.nameOfDish = name;
+    }
+
+    public Dish(int cents, Boolean recommended) {
+        this.costInCents = cents;
+        this.nameOfDish = "nameOfDish";
+        this.wouldRecommend = recommended;
+    }
+
+    public Dish(String name) {
+        this.nameOfDish = name;
+        this.costInCents = 0;
+
+    }
+
+    // GETTERS AND SETTERS //
 
     public int getCostInCents() {
         return costInCents;
