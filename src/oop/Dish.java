@@ -19,11 +19,11 @@ public class Dish {
 //        3) test the printSummary() method by invoking it and checking if all instance values are correctly printed
 //
 
-    public int costInCents;
+    private int costInCents;
 
-    public String nameOfDish;
+    private String nameOfDish;
 
-    public Boolean wouldRecommend;
+    private Boolean wouldRecommend;
 
     public void printSummary (Dish dish) {
         System.out.printf("""
@@ -35,11 +35,27 @@ public class Dish {
                 """, dish.costInCents, dish.nameOfDish, dish.wouldRecommend);
     }
 
+    public int getCostInCents() {
+        return costInCents;
+    }
 
+    public void setCostInCents(int costInCents) {
+        this.costInCents = costInCents;
+    }
 
+    public String getNameOfDish() {
+        return nameOfDish;
+    }
 
+    public void setNameOfDish(String nameOfDish) {
+        this.nameOfDish = nameOfDish;
+    }
 
+    public Boolean getWouldRecommend() {
+        return wouldRecommend;
+    }
 
-
-
+    public void setWouldRecommend(Boolean wouldRecommend) {
+        this.wouldRecommend = wouldRecommend;
+    }
 }
