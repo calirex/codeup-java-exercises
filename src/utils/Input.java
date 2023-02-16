@@ -18,8 +18,9 @@ public class Input {
 
     }
 
-    public Boolean yesNo(String input) {
+    public Boolean yesNo() {
         System.out.println("Continue: [y/n]");
+        String input = null;
         String inputLowered = input.toLowerCase();
         return inputLowered.equals("y") || inputLowered.equals("yes");
 
