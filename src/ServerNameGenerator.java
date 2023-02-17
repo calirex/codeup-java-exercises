@@ -37,5 +37,11 @@ public class ServerNameGenerator {
 
     }
 
+    public static void main(String[] args) {
+        String randomNoun = getRandomWord(nouns);
+        String randomAdjective = getRandomWord(adjectives);
+        System.out.println(randomAdjective + "-" + randomNoun);
+        }
+    }
 
-}
+

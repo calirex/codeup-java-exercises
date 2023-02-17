@@ -1,6 +1,6 @@
 package utils;
 
-public class inputTest {
+public class InputTest {
 
   // VIEW PORT //
    public static void main(String[] args){
