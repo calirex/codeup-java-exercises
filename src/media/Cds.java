@@ -2,6 +2,8 @@ package media;
 
 import media.Media;
 
+import java.util.Date;
+
 public class Cds extends Media {
 
     @Override
@@ -25,4 +27,19 @@ public class Cds extends Media {
         Media.checkedOut = false;
     }
 
+    @Override
+    public String identify() {
+        return name;
+    }
+
+    @Override
+    public Date getLastScan() {
+        return lastScan;
+    }
+
+    @Override
+    public void setLastScan(Date date) {
+        lastScan = date;
+
+    }
 }

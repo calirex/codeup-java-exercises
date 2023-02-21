@@ -1,11 +1,15 @@
 package media;
 
-abstract public class Media {
+import java.util.Date;
+
+abstract public class Media implements LibraryUtils{
 
     protected static boolean adultOnly;
     protected static String name;
 
     protected static boolean checkedOut = false;
+
+    protected static Date lastScan;
 
 
     // METHODS //
