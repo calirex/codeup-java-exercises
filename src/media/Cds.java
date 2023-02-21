@@ -14,4 +14,15 @@ public class Cds extends Media {
         System.out.println("Cd's made from the good stuff");
     }
 
+    @Override
+    public void demolish() {
+        System.out.println("Destroy");
+    }
+
+    public Cds(boolean isAdultOnly, String name) {
+        Media.adultOnly = adultOnly;
+        Media.name = name;
+        Media.checkedOut = false;
+    }
+
 }
