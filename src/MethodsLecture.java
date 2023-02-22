@@ -1,6 +1,6 @@
 public class MethodsLecture {
 
-    // ----------- DEFINING AND CALLING METHODS WITH VARIOUS INPUTS (examples)
+    // ----------- DEFINING AND CALLING METHODS WITH VARIOUS INPUTS (examples) //
 
     // no input or returned output
         public static void sayGreeting() {

@@ -2,7 +2,7 @@ package shapes;
 
 import utils.Input;
 
-public class CircleApps {
+public class CircleApp {
 
     // VIEWPORT //
     public static void main(String[] args) {
