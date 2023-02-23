@@ -30,7 +30,7 @@ public class Student {
 //            return (double) sum / this.grades.size();
 //        }
 
-    private List<Integer> grades = new ArrayList<>();
+    private List<Double> grades = new ArrayList<>();
 
     public Student(String name) {
         this.name = name;
@@ -43,7 +43,7 @@ public class Student {
     }
 
     // adds the given grade to the grades property
-    public void addGrade(int grade) {
+    public void addGrade(double grade) {
         grades.add(grade);
     }
 
